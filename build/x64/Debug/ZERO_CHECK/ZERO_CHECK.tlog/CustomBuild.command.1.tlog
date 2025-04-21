@@ -1,0 +1,10 @@
+^C:\MULTITHREADING\BUILD\CMAKEFILES\EC9AD8498DBF4499DB6197B7136FA71B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/multithreading -BC:/multithreading/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/multithreading/build/multithreading.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
