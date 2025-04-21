@@ -7,12 +7,6 @@
     <ProjectOutput>
       <FullPath>C:\multithreading\bin.dbg\parBlur.exe</FullPath>
     </ProjectOutput>
-    <ProjectOutput>
-      <FullPath>C:\multithreading\bin.dbg\seqBlur.exe</FullPath>
-    </ProjectOutput>
-    <ProjectOutput>
-      <FullPath>C:\multithreading\build\x64\Debug\ALL_BUILD</FullPath>
-    </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
   <SatelliteDlls />
